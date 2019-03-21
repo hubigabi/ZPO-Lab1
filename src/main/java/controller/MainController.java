@@ -71,7 +71,7 @@ public class MainController {
     }
 
     @FXML
-    void updateTableView(ActionEvent event) {
+    void refreshTableView(ActionEvent event) {
         employees.clear();
         EmployeeDAO employeeDAOImpl = new EmployeeDAOImpl();
         employees = FXCollections.observableArrayList(employeeDAOImpl.findAll());

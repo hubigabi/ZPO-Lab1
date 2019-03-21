@@ -29,6 +29,6 @@
       </TableView>
       <Button fx:id="but_addEmployees" layoutX="58.0" layoutY="445.0" mnemonicParsing="false" onAction="#addEmployee" prefHeight="30.0" prefWidth="120.0" text="Add" />
       <Button fx:id="but_delte" layoutX="200.0" layoutY="445.0" mnemonicParsing="false" onAction="#deleteEmployee" prefHeight="30.0" prefWidth="100.0" text="Delete" />
-      <Button fx:id="but_updateTable" layoutX="374.0" layoutY="445.0" mnemonicParsing="false" onAction="#updateTableView" text="Update table" />
+      <Button fx:id="but_updateTable" layoutX="374.0" layoutY="445.0" mnemonicParsing="false" onAction="#refreshTableView" text="Refresh table" />
    </children>
 </AnchorPane>
